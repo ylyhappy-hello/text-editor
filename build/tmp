@@ -1,6 +1,0 @@
-M1, a, b, c := 10;
-M2, e, f, d := 5;
-print(1 + b * b);
-print(a);
-print(1 + b * c);
-print(2 * b * e - 1);
