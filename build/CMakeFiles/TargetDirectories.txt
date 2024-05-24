@@ -1,0 +1,3 @@
+/home/yly/down/vulkan_text_edit/build/CMakeFiles/example_glfw_vulkan.dir
+/home/yly/down/vulkan_text_edit/build/CMakeFiles/edit_cache.dir
+/home/yly/down/vulkan_text_edit/build/CMakeFiles/rebuild_cache.dir
