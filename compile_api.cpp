@@ -1,5 +1,5 @@
 #include "compile_api.hpp"
-#include "vulkan_text_edit/hushu/globalVarTable.h"
+#include "hushu/globalVarTable.h"
 void A_yly_compile(){
   char* inputFileName = "tmp";
   A_yly_expList p = parseExpList(inputFileName);

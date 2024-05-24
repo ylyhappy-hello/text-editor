@@ -17,6 +17,7 @@ find_package(glfw3)
 
 # Dear ImGui
 set(IMGUI_DIR ../imGUI)
+set(COMPILE_LIB_DIR /home/yly/text-editor/hushu)
 include_directories(${IMGUI_DIR} ${IMGUI_DIR}/backends ..)
 
 # Libraries
@@ -32,5 +33,5 @@ include_directories(${GLFW_DIR}/deps)
 file(GLOB sources *.cpp)
 
 add_executable(example_glfw_vulkan ${sources} ${IMGUI_DIR}/backends/imgui_impl_glfw.cpp ${IMGUI_DIR}/backends/imgui_impl_vulkan.cpp ${IMGUI_DIR}/imgui.cpp ${IMGUI_DIR}/imgui_draw.cpp ${IMGUI_DIR}/imgui_demo.cpp ${IMGUI_DIR}/imgui_tables.cpp ${IMGUI_DIR}/imgui_widgets.cpp)
-target_link_libraries(example_glfw_vulkan   /home/yly/down/vulkan_text_edit/hushu/libhushu.a ${LIBRARIES})
+target_link_libraries(example_glfw_vulkan  ${COMPILE_LIB_DIR}/libhushu.a ${LIBRARIES})
 target_compile_definitions(example_glfw_vulkan PUBLIC -DImTextureID=ImU64)

@@ -1,0 +1,4 @@
+[submodule "hushu"]
+	path = hushu
+	url = git@gitee.com:ylyhappy/hushu.git
+	branch = homework
