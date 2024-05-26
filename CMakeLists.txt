@@ -17,7 +17,7 @@ find_package(glfw3)
 
 # Dear ImGui
 set(IMGUI_DIR ../imGUI)
-set(COMPILE_LIB_DIR /home/yly/text-editor/hushu)
+set(COMPILE_LIB_DIR /home/yly/code/text-editor/hushu)
 include_directories(${IMGUI_DIR} ${IMGUI_DIR}/backends ..)
 
 # Libraries
